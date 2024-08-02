@@ -1,12 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jogo Fantástico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .hero {
+            background: url('caminho/para/sua/imagem.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1>Jogo Fantástico</h1>
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#caracteristicas">Características</a>
+                <a href="#galeria">Galeria</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1>Bem-vindo ao Jogo Fantástico!</h1>
+    </div>
+
+    <div class="container">
+        <section id="sobre" class="section">
+            <h2>Sobre o Jogo</h2>
+            <p>Jogo Fantástico é um jogo de ação e aventura que vai te levar a uma jornada épica através de mundos desconhecidos. Com gráficos impressionantes e uma história envolvente, é um jogo que vai prender você por horas.</p>
+        </section>
+
+        <section id="caracteristicas" class="section">
+            <h2>Características Principais</h2>
+            <ul>
+                <li>Gráficos de alta qualidade</li>
+                <li>História envolvente e imersiva</li>
+                <li>Gameplay intuitivo e desafiador</li>
+                <li>Várias missões e desafios</li>
+            </ul>
+        </section>
+
+        <section id="galeria" class="section">
+            <h2>Galeria</h2>
+            <img src="caminho/para/imagem1.jpg" alt="Imagem do Jogo 1">
+            <img src="caminho/para/imagem2.jpg" alt="Imagem do Jogo 2">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Jogo Fantástico. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
